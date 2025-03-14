@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './main/h_exec'
+                sh './main/hello_exec'
             }
         }
         stage('Deploy') {
